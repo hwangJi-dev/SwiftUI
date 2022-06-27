@@ -12,7 +12,6 @@
   
 
     ```
-
     App / Scene / View
 
 
@@ -26,9 +25,6 @@
 
 
     App 내 > body 내(Scene) > 뷰(View)들로 구성된 윈도우 그룹(WindowGroup)
-
-
-
     ```
 
 
