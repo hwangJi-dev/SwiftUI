@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3342E45D286C9D1300A1F839 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3342E45C286C9D1300A1F839 /* LandmarkRow.swift */; };
 		337A4A812869EA6800FCB996 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A4A802869EA6800FCB996 /* LandmarksApp.swift */; };
 		337A4A832869EA6800FCB996 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A4A822869EA6800FCB996 /* ContentView.swift */; };
 		337A4A852869EA6A00FCB996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337A4A842869EA6A00FCB996 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3342E45C286C9D1300A1F839 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		337A4A7D2869EA6800FCB996 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337A4A802869EA6800FCB996 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		337A4A822869EA6800FCB996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				337A4A822869EA6800FCB996 /* ContentView.swift */,
+				3342E45C286C9D1300A1F839 /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				337A4A99286A290700FCB996 /* Utils.swift in Sources */,
 				337A4A832869EA6800FCB996 /* ContentView.swift in Sources */,
+				3342E45D286C9D1300A1F839 /* LandmarkRow.swift in Sources */,
 				337A4A97286A281800FCB996 /* ModelData.swift in Sources */,
 				337A4A812869EA6800FCB996 /* LandmarksApp.swift in Sources */,
 				337A4A95286A214C00FCB996 /* Landmark.swift in Sources */,
