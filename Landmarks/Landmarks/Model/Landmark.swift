@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 import MapKit
 
-struct Landmark: Hashable, Codable {
-    var id: Int
+struct Landmark: Hashable, Codable, Identifiable {
+    var id: Int // 고유의 id값 -> 이미 식별가능하므로 decode 할 때 해당 속성을 추가해주기만 하면 됨.
     var name: String
     var park: String
     var state: String
